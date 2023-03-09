@@ -3,7 +3,6 @@ name = "delphi"
 version = "0.1.0"
 description = "DEtection of Laser Points in Huge image collections using Iterative learning"
 authors = ["Kevin Barnard <kbarnard@mbari.org>"]
-license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
