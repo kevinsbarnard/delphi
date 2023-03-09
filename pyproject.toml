@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "delphi"
+version = "0.1.0"
+description = "DEtection of Laser Points in Huge image collections using Iterative learning"
+authors = ["Kevin Barnard <kbarnard@mbari.org>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+opencv-python = "^4.7.0.72"
+typer = "^0.7.0"
+scikit-learn = "^1.2.1"
+
+[tool.poetry.scripts]
+delphi = "delphi.cli:delphi"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.12.0"
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
